@@ -32,9 +32,19 @@ body{
 	max-width: 100%;
 }
 
+img:hover {
+	opacity: 0.8;
+	
+}
+
 .topnav .part1 img, .part2 img {
 	max-width: 16.6%;
 	float: left;
+}
+
+.gks:hover {
+	background-color: #157da5;
+	
 }
 
 .header {
@@ -45,6 +55,7 @@ body{
 	background-color: #ffda00db;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	max-width: 100%;
 }
 
 .main {
@@ -60,7 +71,7 @@ body{
 	border: 3px solid #157da5;
 }
 
-.main a, .authors a {
+.main a, .authors a, .forms a {
 	text-decoration: none;
 	font-family: Segoe UI;
 	background-color: #ffda00db;
@@ -79,6 +90,34 @@ body{
 	width: 250px;
 	border-radius: 150px;
 	border: 5px dashed #157da5;
+}
+
+.forms{
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.forms img{
+	width: 250px;
+}
+
+.form{
+	background-color:#ffda00db;
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 500px;
+	margin:auto;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	border-radius:10%;
+}
+
+a:hover{
+	background-color: #ffe757db;
 }
 
 footer {
@@ -109,6 +148,10 @@ footer {
 	border-radius: 150px;
 	border: 5px dashed #157da5;
 	display: block;
+}
+
+.deepee img:hover {
+	width: 300px;
 }
 
 .album {
@@ -217,3 +260,18 @@ h1, h2 {
 	border-radius: 0;
 	width: 400px;
 }
+
+@media screen and (max-width: 767px) {
+	
+.next, .back {
+	font-size: 45px;
+}
+
+.gks {
+	font-size: 100px;
+}
+
+}
+
+
+
